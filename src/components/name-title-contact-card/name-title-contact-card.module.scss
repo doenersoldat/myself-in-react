@@ -1,0 +1,15 @@
+.root {
+    display: block;
+    padding: 1em 5em;
+    opacity: .4;
+    background-color: white;
+
+    .contactRow {
+        opacity: 1;
+        
+
+        svg {
+            margin-right: .5em;
+        }
+    }
+}
