@@ -1,0 +1,1 @@
+docker build ./ -t myself-in-react:latest
