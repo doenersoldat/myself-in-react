@@ -8,16 +8,15 @@
   - ESLint
   - Stylelint
   - prettier
-- Vite
-  - (instead of create-react-app) -> 🚀🚀🚀
+- Vite & Vitest
+  - instead of create-react-app 🔥🔥🔥
 - Dockerfile
   - To build everything from scratch and create an docker image with Nginx as host call `./docker/build.ps1`
 
 ## Still missing:
 
 - Automated tests
-- A lightweight css framework (like https://watercss.kognise.dev/)
-- More useful docker image scripts
+- Basic UI
 
 ## Usefull VSCode extensions
 
