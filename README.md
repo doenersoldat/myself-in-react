@@ -1,15 +1,25 @@
 # reactts-vite-eslint-template
 
-A little template to create react app with:
-- React with TypeScript
-- ESLint + prettier
-  - Clean code is better code
-- Vite 
-  - (instead of create-react-app) -> 🚀🚀🚀
-- Dockerfile 
-  - To build everything from scratch and create an docker image with Nginx as host call ```./docker/build.ps1```
+## A little template for fastly create react apps with folling features:
 
-Still missing:
-- Stylelint
+- React
+  - using Typescript
+- Linters
+  - ESLint
+  - Stylelint
+  - prettier
+- Vite
+  - (instead of create-react-app) -> 🚀🚀🚀
+- Dockerfile
+  - To build everything from scratch and create an docker image with Nginx as host call `./docker/build.ps1`
+
+## Still missing:
+
 - A lightweight css framework (like https://watercss.kognise.dev/)
 - More useful docker image scripts
+
+## Usefull VSCode extensions
+
+- ESLint
+- Stylelint
+- Prettier
