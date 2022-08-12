@@ -1,22 +1,20 @@
-import { FC } from 'react';
-import styles from './header.module.scss';
-import headerLarge from './header-large.jpg';
-import NameTitleContactCard from '../name-title-contact-card/name-title-contact-card';
+import { FC } from 'react'
+import './header.scss'
+import headerLarge from './header-large.jpg'
+import NameTitleContactCard from '../name-title-contact-card/name-title-contact-card'
+import ThemeSwitch from '../theme-toggle/theme-toggle'
+
 
 const Header: FC = () => (
-    <header className={styles.root}>
-        <img src={headerLarge} alt="Tada - Myself" />
-        <div>
-            <NameTitleContactCard />
-        </div>
-        <ul>
-            <li>Home</li>
-            <li>About me</li>
-            <li>Softskills</li>
-            <li>Hardskills</li>
-            <li>Stages</li>
-        </ul>
-    </header>
-);
+<header className='relative w-100'>
+    <figure>
+      <img src={headerLarge} alt='My self ;-)' className='h-3/4 object-cover object-left-bottom' />
+    </figure>
+    <div className='absolute top-0 right-3 h-3/4'>
+      <NameTitleContactCard />
+    </div>
+    <ThemeSwitch />
+  </header>
+)
 
-export default Header;
+export default Header
