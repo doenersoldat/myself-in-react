@@ -2,7 +2,9 @@
   "compilerOptions": {
     "composite": true,
     "module": "esnext",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "jsx": "react",
+    "types": ["vitest/globals"]
   },
   "include": ["vite.config.ts"]
 }
