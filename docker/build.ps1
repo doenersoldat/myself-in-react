@@ -1,1 +1,1 @@
-docker build ./ -t myself-in-react:latest
+docker build ./ -t react-starter:latest
