@@ -15,6 +15,7 @@
 
 ## Still missing:
 
+- Automated tests
 - A lightweight css framework (like https://watercss.kognise.dev/)
 - More useful docker image scripts
 
