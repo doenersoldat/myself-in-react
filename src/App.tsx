@@ -1,11 +1,9 @@
 import { FunctionComponent } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const App: FunctionComponent = () => {
-	return (
-		<>
-			<h1>Hello World</h1>
-		</>
-	)
+	const { t } = useTranslation('general')
+	return <h1>{t('HelloWorld')}</h1>
 }
 
 export default App

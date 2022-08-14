@@ -31,6 +31,7 @@ module.exports = {
 		semi: ['error', 'never'],
 		quotes: ['error', 'single'],
 		camelcase: 'error',
+		'comma-dangle': ['error', 'always-multiline'],
 		'spaced-comment': 'error',
 		quotes: ['error', 'single'],
 		'no-duplicate-imports': 'error',

@@ -10,13 +10,15 @@
 		"test:ui": "vitest --ui",
 		"coverage": "vitest run --coverage",
 		"lint": "yarn lint:ts && yarn lint:style",
-		"lint:ts": "eslint src/**/*.{js,jsx,ts,tsx,json}",
+		"lint:ts": "eslint src/**/*.{js,jsx,ts,tsx}",
 		"lint:style": "stylelint src/**/*.{css,scss,sass}",
 		"format": "prettier --write src/**/*.{js,jsx,ts,tsx,css,scss,md,json} --config ./.prettierrc.js"
 	},
 	"dependencies": {
+		"i18next": "^21.9.0",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0",
+		"react-i18next": "^11.18.3",
 		"sass": "^1.54.4"
 	},
 	"devDependencies": {
