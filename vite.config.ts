@@ -1,7 +1,10 @@
+/* eslint-disable spaced-comment */
+/// <reference types="vitest" />
+/// <reference types="vite/client" />
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [react()],
 	root: 'src',
@@ -10,8 +13,10 @@ export default defineConfig({
 	},
 	test: {
 		globals: true,
-		setupFiles: ['../.test/setup.ts'],
-		include: ['**/*(*.)?{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
-		exclude: ['node_modules', 'dist', '.idea', '.git', '.cache'],
+		setupFiles: ['../test/test-setup.ts'],
+		include: ['src/**/*(*.)?{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
+		coverage: {
+			reporter: ['text', 'json', 'html'],
+		},
 	},
 })

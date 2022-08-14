@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+import AppComponent from './components/AppComponent'
 import './index.scss'
-import './locale/i18-setup'
+import './locale/locale-setup'
 
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
-		<App />
+		<AppComponent />
 	</React.StrictMode>,
 )
