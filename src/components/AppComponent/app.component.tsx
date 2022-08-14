@@ -1,9 +1,6 @@
 import { FunctionComponent } from 'react'
-import { useTranslation } from 'react-i18next'
+import HelloWorldComponent from '@components/HelloWorldComponent'
 
-const AppComponent: FunctionComponent = () => {
-	const { t } = useTranslation('general')
-	return <h1>{t('HelloWorld')}</h1>
-}
+const AppComponent: FunctionComponent = () => <HelloWorldComponent></HelloWorldComponent>
 
 export default AppComponent

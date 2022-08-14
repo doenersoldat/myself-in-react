@@ -3,6 +3,7 @@ module.exports = {
 	env: {
 		browser: true,
 		es2021: true,
+		'cypress/globals': true,
 		//"jest": true
 	},
 	extends: [
@@ -11,6 +12,7 @@ module.exports = {
 		'plugin:react/jsx-runtime',
 		'plugin:@typescript-eslint/recommended',
 		'prettier',
+		'plugin:cypress/recommended',
 	],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
@@ -20,7 +22,7 @@ module.exports = {
 		ecmaVersion: 'latest',
 		sourceType: 'module',
 	},
-	plugins: ['react', 'react-hooks', '@typescript-eslint', 'prettier'],
+	plugins: ['react', 'react-hooks', '@typescript-eslint', 'prettier', 'cypress'],
 	ignorePatterns: ['/*.js'],
 	settings: {
 		react: {

@@ -14,8 +14,12 @@
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"noEmit": true,
-		"jsx": "react-jsx"
+		"jsx": "react-jsx",
+		"baseUrl": "./",
+		"paths": {
+			"@components/*": ["src/components/*"]
+		}
 	},
-	"include": ["src", "test/App.spec.tsx"],
+	"include": ["src", "test", "cypress", "type-definitions"],
 	"references": [{ "path": "./tsconfig.node.json" }]
 }
