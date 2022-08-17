@@ -5,6 +5,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
+		"docker:build": "docker build . -t react-starter:latest",
 		"preview": "vite preview",
 		"test": "yarn test:e2e && yarn test:component",
 		"test:e2e": "cypress run",

@@ -1,4 +1,3 @@
-import * as React from 'react'
 import HelloWorldComponent from '@components/HelloWorldComponent'
 
 describe('HelloWorldComponent', () => {
