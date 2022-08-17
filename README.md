@@ -14,6 +14,8 @@ This project is a little template to create a pre-configured react app with the 
     -   to have an easy way to publish everything
 -   [i18next](https://www.i18next.com/)
     -   To support multi-language projects
+    -   Auto-detection of preferred language via `i18next-browser-languagedetector`
+        -   Call https://localhost:3000?lng={en|de} to switch languages
 -   [Tailwind.css](https://tailwindcss.com/)
     -   To style everything
 -   Code Linters / Formatters
