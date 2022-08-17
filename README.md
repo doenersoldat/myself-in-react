@@ -12,9 +12,11 @@ This project is a little template to create a pre-configured react app with the 
     -   for E2E and component-based tests
 -   [Docker](https://www.docker.com/)
     -   to have an easy way to publish everything
+-   [i18next](https://www.i18next.com/)
+    -   To support multi-language projects
 -   [Tailwind.css](https://tailwindcss.com/)
     -   To style everything
--   Linters
+-   Code Linters / Formatters
     -   [ESLint](https://eslint.org/) - for TS/JS/JSON linting
     -   [Stylelint](https://stylelint.io/) - for stylesheet linting
     -   [Prettier](https://prettier.io/) - for easy code formatting
