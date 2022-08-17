@@ -1,25 +1,36 @@
 # reactts-vite-eslint-template
 
-## A little template for fastly create react apps with folling features:
+## What's this?
 
-- React
-  - using Typescript
-- Linters
-  - ESLint
-  - Stylelint
-  - prettier
-- Vite & Vitest
-  - instead of create-react-app 🔥🔥🔥
-- Dockerfile
-  - To build everything from scratch and create an docker image with Nginx as host call `./docker/build.ps1`
+This project is a little template to create a pre-configured react app with the following features set up:
 
-## Still missing:
+-   [React](https://reactjs.org/)
+    -   with support for Typescript
+-   [Vite](https://vitejs.dev/)
+    -   as a very very fast replacement for create-react-app/node.js 🚀🚀🚀
+-   [Cypress](https://www.cypress.io/)
+    -   for E2E and component-based tests
+-   [Docker](https://www.docker.com/)
+    -   to have an easy way to publish everything
+-   [Tailwind.css](https://tailwindcss.com/)
+    -   To style everything
+-   Linters
+    -   [ESLint](https://eslint.org/) - for TS/JS/JSON linting
+    -   [Stylelint](https://stylelint.io/) - for stylesheet linting
+    -   [prettier](https://prettier.io/) - for code formatting
 
-- Automated tests
-- Basic UI
+# Commands
 
-## Usefull VSCode extensions
+-   `yarn dev` - spins up the dev machine with HMR active (or `yarn start` for convenience)
+-   `yarn build` - builds the react app to the **./dist** folder for publishing
+-   `yarn preview` - serves the build app from the **./dist** folder
+-   `yarn test` - run E2E and component-based tests
+-   `yarn cypress` - opens up the cypress test UI
+-   `yarn docker:build` - to call a multi-stage build and create an image from Nginx to host everything#
 
-- ESLint
-- Stylelint
-- Prettier
+# VSCode extensions
+
+-   ESLint
+-   Stylelint
+-   Prettier
+    -   Don't forget to disable `prettier.useEditorConfig` in VSCode
