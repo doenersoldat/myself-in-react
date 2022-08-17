@@ -17,7 +17,7 @@ This project is a little template to create a pre-configured react app with the 
 -   Linters
     -   [ESLint](https://eslint.org/) - for TS/JS/JSON linting
     -   [Stylelint](https://stylelint.io/) - for stylesheet linting
-    -   [prettier](https://prettier.io/) - for code formatting
+    -   [Prettier](https://prettier.io/) - for easy code formatting
 
 # Commands
 
