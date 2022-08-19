@@ -3,7 +3,7 @@ import HelloWorldComponent from '@components/HelloWorldComponent'
 import { useTranslation } from 'react-i18next'
 
 const AppComponent: FunctionComponent = () => {
-	const { t } = useTranslation('AppComponent')
+	const { t } = useTranslation('app.component')
 
 	return (
 		<>

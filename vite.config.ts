@@ -7,11 +7,12 @@ import * as path from 'path'
 
 export default defineConfig({
 	plugins: [react()],
-	root: 'src',
+	root: './src',
 	build: {
 		outDir: '../dist',
 	},
 	resolve: {
 		alias: [{ find: '@components', replacement: path.resolve(__dirname, 'src/components/') }],
 	},
+	publicDir: '../public',
 })
