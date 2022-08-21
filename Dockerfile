@@ -5,6 +5,7 @@ COPY package.json ./
 #COPY package-lock.json ./
 RUN yarn
 COPY . ./
+RUN yarn lint
 RUN yarn build
 
 # Run with nginx
