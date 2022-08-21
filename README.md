@@ -12,6 +12,11 @@ This project is a little template to create a pre-configured react app with the 
     -   for E2E and component-based tests
 -   [Docker](https://www.docker.com/)
     -   to have an easy way to publish everything
+    -   also a Github workflow is included to easly publish everything to dockerhub
+        - You only need to set the following properties:
+        `DOCKERHUB_USERNAME` - Your username to connect to dockerhub
+        `DOCKERHUB_TOKEN` - Your access token to dockerhub
+        `DOCKERHUB_REPONAME` - The dockerhub repo name
 -   [i18next](https://www.i18next.com/)
     -   To support multi-language projects
     -   Auto-detection of preferred language via `i18next-browser-languagedetector`
