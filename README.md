@@ -1,4 +1,4 @@
-# reactts-vite-eslint-template
+# reactts-vite-quickstart-template
 
 ## What's this?
 
